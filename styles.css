@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #ededed;
+}
+.navbar{
+    width: 100vw;
+    height: 60px;
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.navbar h3{
+    margin-left: 50px;
+}
+.navbar a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    padding: 20px 15px ;
+}
+.navbar a:hover{
+    color: blue;
+}
+.books,.register{
+    width: 750PX;
+    padding: 10px;
+    margin: 30px;
+    background-color:white ;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+h1{
+    margin-bottom: 10px;
+}
+
+table,td,th{
+    border: 1px solid lightgray;
+    border-collapse: collapse;
+    padding: 10px;
+    margin: 10px;
+    overflow: hidden;
+
+}
+
+
+input[type="text"],
+ input[type="password"],
+ input[type="email"],
+ input[type="date"]{
+    width: 97%;
+    padding: 10px;
+    align-items: center;
+    margin: 10px 0;
+    border: 1px solid lightgrey;
+ }
+
+ button{
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    background-color: black;
+    color: white;
+    border: none;
+ }
